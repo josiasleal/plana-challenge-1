@@ -24,8 +24,7 @@ Clone the project
   git clone https://github.com/josiasleal/plana-challenge-1.git
 ```
 
-Go to the project directory
-[@josiasleal](https://github.com/josiasleal/plana-challenge-1)
+Go to the [project directory](https://github.com/josiasleal/plana-challenge-1)
 ```bash
   cd plana-challenge-1
 ```

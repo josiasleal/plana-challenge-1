@@ -1,0 +1,4 @@
+# These files are ignored when building the docker image
+node_modules
+npm-debug.log
+.git

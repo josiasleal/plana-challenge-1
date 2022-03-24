@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microservice-deployment
+spec:
+  selector:
+    matchLabels:
+      app: microservice
+  replicas: 1 # tells deployment to run X pods matching the template
+  template:
+    metadata:
+      labels:
+        app: microservice
+    spec:
+      containers:
+      - name: microservice
+        image: josiasleal/microservice:latest
+        ports:
+        - containerPort: 5000
